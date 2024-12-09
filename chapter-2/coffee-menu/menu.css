@@ -1,0 +1,52 @@
+*{
+    background-color: rgb(120, 90, 15);
+    color: white;
+}
+
+.coffee-container{
+    width: 90vw;
+    height: 90vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 5px;
+    padding : 10px;
+}
+
+.shop-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    max-height: fit-content;
+    border: 2px solid black;
+}
+
+h1{
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+.fa-mug-saucer{
+    margin-top: 40px;
+}
+
+.icon-container{
+    border: 2px solid white;
+    border-radius: 80%;
+    max-height: 80px;
+    max-width: 80px;
+}
+
+.address{
+    border: 2px solid black;
+}
+
+.important{
+    color: red;
+}
